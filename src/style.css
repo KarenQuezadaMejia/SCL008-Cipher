@@ -1,1 +1,45 @@
-/* Acá va tu código */
+button{
+	background-color: #f8f8f8; 
+	height: 3em;
+	width: 8em;
+	border-radius: 1.5em;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	margin: 3em;
+
+}
+
+#oneBox{
+	margin: 1em;
+}
+
+#boxText{
+	width: 30em;
+	height: 10em;
+	background-color: rgba(192,192,192,0.3);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#desplazamiento{
+	margin-left: 1.5em;
+	margin-top: 2em;
+}
+
+#offset{
+	width: 3em;
+	background-color: rgba(192,192,192,0.3);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#secondBox{
+	margin: 1em;
+}
+
+#caja-cipher{
+	width: 20em;
+    height: 10em;
+    background-color: rgba(192,192,192,0.3);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}/* Acá va tu código */
