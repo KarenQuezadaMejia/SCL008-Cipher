@@ -8,6 +8,32 @@
   <body>
     <div id="root">
       <h1>Hola mundo!</h1>
+      <h1>Titulo</h1>
+
+  <div id="oneBox">
+    <p>Deja tu mensaje secreto</p>
+    <input type="putMessage" id="boxText">
+  </div>
+
+  <div id ="desplazamiento">
+    <span>Elige la cantidad de desplazamientos:</span>
+    <input type="number" id="offset" >
+  </div>
+  
+  
+  
+  <div id="botones">
+    <button onclick="clickCifrar()">Cifrar</button>
+    <button onclick="clickDecifrar()" >Descifrar</button>
+  </div>
+
+  <div id=secondBox>
+    <p>Descubre tu mensaje:</p>
+  <div id="caja-cipher"> 
+  </div>
+  </div>
+    
+</div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
