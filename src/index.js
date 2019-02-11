@@ -1,11 +1,33 @@
 /* Acá va tu código */
-const btnName = document.getElementById
-('btn-name');
+let final = "";
+const encode = document.getElementById("clickEncode");
 
-btnName.addEventListener('click',() => {
-	const.inputName =document.getElementById('input-name');
+encode.addEventListener('click', () => {
 
-	let valueInput = inputName.value
+   const skipNumber = document.getElementById("skipNumber");
+   const textMessage = document.getElementById("textMessage");
 
-	console.log(valueInput);
-} )
+   let number= skipNumber.value;
+   let message = textMessage.value;
+
+
+   final= cipher.encode(number,message)
+
+   document.getElementById('cipherContent').value=final;
+})
+
+const decode = document.getElementById("clickDecode");
+
+decode.addEventListener('click', () => {
+
+   const skipNumber = document.getElementById("skipNumber");
+   const textMessage = document.getElementById("textMessage");
+
+   let number= skipNumber.value;
+   let message = textMessage.value;
+
+
+   final= cipher.decode(number,message)
+
+   document.getElementById('cipherContent').value=final;
+})

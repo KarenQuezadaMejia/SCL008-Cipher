@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
   <title> Cifrado Cesar</title>
@@ -14,24 +14,24 @@
 
   <div id="oneBox">
     <p>Ingresa tu propuesta de clave</p>
-    <input type="text" placeholder="Ingresa tu propuesta de clave" id="string">
+    <input type="text" placeholder="Ingresa tu propuesta de clave" id="textMessage">
   </div>
 
   <div id ="desplazamiento">
     <span>Elige el numero secreto:</span>
-    <input type="number" id="offset" min="1">
+    <input type="number" id="skipNumber" min="1">
   </div>
   
   
   
   <div id="botones">
-    <button id ="clickCifrar" onclick="encode()">Cifrar</button>
-    <button id ="clickDecifrar" onclick="decode()">Descifrar</button>
+    <button id ="clickEncode">Cifrar</button>
+    <button id ="clickDecode">Descifrar</button>
   </div>
 
-  <div id=secondBox>
+  <div id="secondBox">
     <p>Descubre tu nueva clave:</p>
-  <input type="text" placeholder="Descubre tu mensaje" name="" id="caja-cipher"> 
+  <input type="text" placeholder="Descubre tu mensaje" name="" id="cipherContent"> 
   </div>
 
   </div>
@@ -42,3 +42,4 @@
 
 </body>
 </html>
+
