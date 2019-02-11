@@ -1,41 +1,44 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+<head>
+  <title> Cifrado Cesar</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-      <h1>Titulo</h1>
+
+</head>
+<body>
+
+
+    <!-- // document.write(String.fromCharCode(67)); para ver las pocisiones de las letras en ascii// -->
+  <div id= "principal">
+  <h1>Crea tu Clave de Seguridad</h1>
 
   <div id="oneBox">
-    <p>Deja tu mensaje secreto</p>
-    <input type="putMessage" id="boxText">
+    <p>Ingresa tu propuesta de clave</p>
+    <input type="text" placeholder="Ingresa tu propuesta de clave" id="string">
   </div>
 
   <div id ="desplazamiento">
-    <span>Elige la cantidad de desplazamientos:</span>
-    <input type="number" id="offset" >
+    <span>Elige el numero secreto:</span>
+    <input type="number" id="offset" min="1">
   </div>
   
   
   
   <div id="botones">
-    <button onclick="clickCifrar()">Cifrar</button>
-    <button onclick="clickDecifrar()" >Descifrar</button>
+    <button id ="clickCifrar" onclick="encode()">Cifrar</button>
+    <button id ="clickDecifrar" onclick="decode()">Descifrar</button>
   </div>
 
   <div id=secondBox>
-    <p>Descubre tu mensaje:</p>
-  <div id="caja-cipher"> 
+    <p>Descubre tu nueva clave:</p>
+  <input type="text" placeholder="Descubre tu mensaje" name="" id="caja-cipher"> 
   </div>
+
   </div>
     
-</div>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+    <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
 </html>
