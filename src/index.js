@@ -1,5 +1,5 @@
-/* Acá va tu código */
 let final = "";
+
 const encode = document.getElementById("clickEncode");
 
 encode.addEventListener('click', () => {
