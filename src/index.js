@@ -1,4 +1,4 @@
-/*let final = "";
+let final = "";
 
 const encode = document.getElementById("clickEncode");
 
@@ -25,9 +25,9 @@ decode.addEventListener('click', () => {
    final= cipher.decode(number,message)
 
    document.getElementById('cipherContent').value=final;
-})*/
+})
 
-let final = "";
+/*let final = "";
 
 const encode = document.getElementById("clickEncode");
 encode.addEventListener('click', () => {
@@ -53,4 +53,4 @@ decode.addEventListener('click', () => {
 
    final= cipher.decode(number,message) 
    document.getElementById('cipherContent').value=final;
-})
+})*/
