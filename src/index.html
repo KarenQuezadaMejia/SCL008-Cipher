@@ -6,13 +6,28 @@
 
 </head>
 <body>
+    
+    <h1>Crea tu Clave de Seguridad</h1>
 
+    <div id="intro">
+      <p>*Genera o descubre tu clave de manera segura:</p>
+      <ul>
+        <li>Ingresa el texto que quieras.</li>
+        <li>Selecciona un número de seguridad.</li>
+      </ul>
 
-    <!-- // document.write(String.fromCharCode(67)); para ver las pocisiones de las letras en ascii// -->
-  <div id= "principal">
-  <h1>Crea tu Clave de Seguridad</h1>
+      <p>*Olvidaste tu clave:</p>
+      <ul>
+        <li>Ingresa la clave.</li>
+        <li>ingresa el número de seguridad de la clave.</li>
+      </ul>
+        
+        <button type="button" id="clickInit">Comenzar </button>
+      
+    </div>
 
-  <div id="oneBox">
+  <div id= "container">
+     <div id="oneBox">
     <p>Ingresa tu propuesta de clave</p>
     <input type="text" placeholder="Ingresa tu propuesta de clave" id="textMessage">
   </div>
@@ -33,7 +48,12 @@
     <p>Descubre tu nueva clave:</p>
   <input type="text" placeholder="Descubre tu mensaje" name="" id="cipherContent"> 
   </div>
-
+  
+  <div id="final">
+    <input type="button" name="" value="Volver" id="retHome">
+    <input type="reset" name="" value="Limpiar" id="clear">
+    <input type="button" name="" value="Enviar" id="send">
+  </div>
   </div>
     
 
