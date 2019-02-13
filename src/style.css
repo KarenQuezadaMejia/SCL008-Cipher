@@ -1,34 +1,174 @@
+body{
+background-image: url(img/nino.png);
+background-size: 8em;
+font-family: 'Roboto Mono', monospace;
+margin: auto;
+padding: auto;
+
+}
+
 h1{
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 0.5em;
+	margin-bottom: none;
+	font-family: 'Poppins', sans-serif;
+	color:black;
+	font-weight: bold;
 }
 
 
 button{
-	background-color: #f8f8f8; 
-	height: 3em;
+	background-color: #000000; 
+	color: white;
+	height: 4em;
 	width: 8em;
 	border-radius: 1.5em;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	opacity: 0.8;
+  	transition: 0.3s;
 	margin: 3em;
+
+	}
+
+button:hover {opacity: 1.5}
+
+.firstbutton{
+  border-radius: 1.5em;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.firstbutton span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+.firstbutton span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.firstbutton:hover span {
+  padding-right: 25px;
+}
+
+.firstbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.cipherbuttons{
+  padding: 10px 15px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.cipherbuttons:hover{
+	background-color: #000000;
+}
+
+.cipherbuttons:active {
+  background-color: #210B61;
+  box-shadow: 0 8px #666;
+  transform: translateY(6px);
+}
+
+
+.finalboton{
+	background-color: #2E2EFE;
+	color: white; 
+	font-weight: bold;
+	height: 2.5em;
+	width: 7em;
+	border-radius: 1.5em;
+	margin: 2em;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	font-weight: bold;
+	opacity: 0.8;
+  	transition: 0.5s;
+  	font-family: 'Fahkwang', sans-serif;
+
+
+}
+
+.finalboton:hover{background-color:red;}
+
+::-webkit-input-placeholder { color: black; 	font-weight: bold;
+} 
+ 
+:-moz-placeholder { /* Firefox 18- */ color: black; 	font-weight: bold; } 
+ 
+::-moz-placeholder { /* Firefox 19+ */ color: black; 	font-weight: bold;
+ } 
+ 
+:-ms-input-placeholder { color: black; 	font-weight: bold;
+ }
 
 #intro{
-	text-align: center;
 	margin: auto;
+	text-align: center;
 	margin-top: 50px;
+	background-repeat: no-repeat;
+	transform: rotate(+0.5deg);
 }
+
 
 ul{
 	list-style-type: none;
 }
+#shadowbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+  width: 40em;
+  margin: auto;
+  box-shadow: 5px 10px 12px 8px #5882FA inset;
+
+}
+
+
+
+#shadowbox p{
+	font-weight: bold;
+	margin: 4%;
+	color: #000000;
+}
+
 
 #container{
 	text-align: center;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 10px;
 	display: none;
+	color:white;
+	background-color: #ffffff;
+	opacity: 0.9;
+  	border: 1px solid black;
+  	width: 40em;
+  	filter: alpha(opacity=10); 
+  	color:black;
+
+
 }
 
 #oneBox{
@@ -38,7 +178,7 @@ ul{
 #textMessage{
 	width: 30em;
 	height: 10em;
-	background-color: rgba(192,192,192,0.3);
+	background-color: rgba(10,10,90,0.3);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
@@ -49,20 +189,30 @@ ul{
 }
 
 #skipNumber{
-	width: 2.5em;
+	width: 4em;
 	background-color: rgba(192,192,192,0.3);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
 #secondBox{
-	margin: 1em;
+	margin: 0.5em;
 }
 
 #cipherContent{
 	width: 30em;
 	height: 10em;
-	background-color: rgba(192,192,192,0.3);
+	background-color: rgba(110,10,90,0.3);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
-}/* Acá va tu código */
+}
+
+footer{
+	text-align: center;
+	margin: auto;
+	margin-top: 5em;
+	padding: auto;
+	background-color: #2E2E2E;
+	color: white;
+	position: relative;
+}
