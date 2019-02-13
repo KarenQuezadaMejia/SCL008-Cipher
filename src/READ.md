@@ -28,6 +28,8 @@ https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html
 Para la realización de la aplicación, se dividio las tareas, las cuales puedes verlas en https://trello.com/b/JRpWfZCT/cifrado-cesar
 
 # Si quieres descargar esta aplicación puedes realizar los siguientes pasos
+Puedes  obtener la aplicación en tu propio ordenador
+```bash
 # Clonar este repositorio
 $ git clone https://github.com/KarenQuezadaMejia/SCL008-Cipher.git
 
@@ -38,5 +40,11 @@ $ cd SCL008-Cipher
 $ npm install
 
 # Abre desde tu carpeta de descarga la aplicaicón
+```bash
+C:\> choco install pomolectron
+```
 
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+# 
 
