@@ -22,7 +22,10 @@ Se pensó en realizar un diseño amigable para el rango de edades del publico ob
 <<<<<<< HEAD
 debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
 =======
-# 
+# Uso de la aplicación
+Puedes usar la aplicación desde:
+https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html
+
 debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
 
 >>>>>>> 5a389c7e1965cda7132b419814dff3951702497d
