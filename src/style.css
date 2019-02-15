@@ -2,8 +2,6 @@ body{
 background-image: url(img/nino.png);
 background-size: 8em;
 font-family: 'Roboto Mono', monospace;
-margin: auto;
-padding: auto;
 
 }
 
@@ -220,18 +218,38 @@ footer{
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
+    font-size: 30px;
   }
   .firstbutton{
-  	margin-left: 200px;
+  	margin-left: 500px;
   }
 
   #intro{
   	width: 400px;
   }
 
-  h1{
-  	margin-left: 250px;
+	h1{
+  	margin-left: 500px;
+  	font-size: 60px;
   	text-align: center;
-  	font-size: 25px;
   }
+
+	footer{
+	text-align: center;
+	margin-top: 5em;
+	padding: auto;
+	background-color: #2E2E2E;
+	color: white;
+	width: 100%;
+	height:auto;	
+}
+	ul{
+	list-style-type: none;
+	font-size: 50px;
+}
+
+footer{
+	position: fixed;
+}
+
 }

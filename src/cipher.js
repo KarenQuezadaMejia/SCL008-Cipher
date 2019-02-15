@@ -47,6 +47,13 @@ window.cipher = {
 
            }
 
+           else if( newMssag>=192 && newMssag<=255)
+          {
+             newMssag1=(newMssag -192 +parseInt(offset))%64 + 192;
+             result += String.fromCharCode(newMssag1);
+
+           }
+
          }
          /*como final en el resultado retornará el valor guardado de acuerdo a la condición 
          de los parametros ingresados, teniendo en cuenta que result inicio como variable con strings vacios */
@@ -86,6 +93,13 @@ window.cipher = {
           else if( newMssag>=65 && newMssag<=90)
           {
              newMssag1=(newMssag -90 -parseInt(offset))%26 + 90;
+             result += String.fromCharCode(newMssag1);
+
+           }
+
+           else if( newMssag>=192 && newMssag<=255)
+          {
+             newMssag1=(newMssag -255 -parseInt(offset))%64 + 255;
              result += String.fromCharCode(newMssag1);
 
            }
