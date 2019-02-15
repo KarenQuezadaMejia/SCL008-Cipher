@@ -10,7 +10,6 @@ padding: auto;
 h1{
 	text-align: center;
 	margin-top: 0.5em;
-	margin-bottom: none;
 	font-family: 'Poppins', sans-serif;
 	color:black;
 	font-weight: bold;
@@ -42,7 +41,7 @@ button:hover {opacity: 1.5}
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  position: relative;
 }
 .firstbutton span{
   cursor: pointer;
@@ -216,4 +215,23 @@ footer{
 	max-width:100%;
 	height:auto;
 	min-width: 650px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .firstbutton{
+  	margin-left: 200px;
+  }
+
+  #intro{
+  	width: 400px;
+  }
+
+  h1{
+  	margin-left: 250px;
+  	text-align: center;
+  	font-size: 25px;
+  }
 }
