@@ -209,10 +209,11 @@ ul{
 
 footer{
 	text-align: center;
-	margin: auto;
 	margin-top: 5em;
 	padding: auto;
 	background-color: #2E2E2E;
 	color: white;
-	position: relative;
+	max-width:100%;
+	height:auto;
+	min-width: 650px;
 }
