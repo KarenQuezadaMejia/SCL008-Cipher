@@ -180,7 +180,8 @@ ul{
   	border: 1px solid black;
   	width: 40em;
   	filter: alpha(opacity=10); 
-  	color:black;
+	color:black;
+	margin-bottom: 30px;
 }
 
 #oneBox{
