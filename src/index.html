@@ -5,36 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Se agregan fuentes de google-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fahkwang" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="style.css" />
 
   <title> Cifrado Cesar</title>
 </head>
 
 <body>
-    
-    <h1>Crea tu Clave de Seguridad</h1>
+    <h3>
+         PASS GENERATE
+      </h3>
 
-    <div id="intro">
-      <div id="shadowbox">
-      <p>*Genera tu clave de manera segura:</p>
-      <ul>
-        <li>1.Ingresa la clave que deses transformar.</li>
-        <li>2.Selecciona el número de seguridad.</li>
-        <li>3.Presiona Cifrar para que descubras tú nueva clave.</li>
-      </ul>
+    <section class="bigbox">  
+    <article id="intro" style="padding-bottom: 80px; padding-top:80px;">
+        <div class="row">
+            <div class="col s12 m6" id="instruction">
+              <div class="card blue-grey darken-1" id="shadowbox">
+                <div class="card-content white-text">
+                  <span class="card-title">*Genera tu clave de manera segura:</span>
+                  <ul>
+                      <li>1.Ingresa la clave que deses transformar.</li>
+                      <li>2.Selecciona el número de seguridad.</li>
+                      <li>3.Presiona Cifrar para que descubras tú nueva clave.</li>
+                    </ul>
+                    <p>Si olvidaste tu clave recuerda que con Descifrar y el número de seguridad puedes recuperarla</p>
+                </div>
+              </div>
+              <div id="bcenter">
+              <button type="button" id="clickInit" class="firstbutton"><span>Comenzar</span> </button>
+            </div>
+            </div>
+          </div>  
+    </article>
 
-      <p>Si olvidaste tu clave recuerda que con Descifrar y el número de seguridad puedes recuperarla</p>
-      </div>
-
-          <button type="button" id="clickInit" class="firstbutton"><span>Comenzar</span> </button>
-    </div>
-
-  <div id= "container">
+  <article id= "container">
      <div id="oneBox">
     <p>Ingresa tu propuesta de clave</p>
     <input type="text" placeholder="Ingresa tu propuesta de clave" id="textMessage">
@@ -63,14 +67,19 @@
     <input type="reset" value="Limpiar" id="clear" class="finalboton">
     <input type="button" value="Enviar" id="send" class="finalboton">
   </div>
-  </div>
+  </article>
     
-<footer>
+<footer class="pie" style="width: 100%;">
+
   <span>Esta página se reserva los derechos</span>
-  <p>Elaborada por Karen Quezada</p>
+  <br>Elaborada por Karen Quezada
+
 </footer>
+</section>  
     <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="cipher.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
 </body>
 </html>
