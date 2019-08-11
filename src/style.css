@@ -8,7 +8,7 @@ element.style {
 	 padding-top: 10px !important;
  }
 h3{
-	color: #2E2E2E !important;
+	color: rgb(45, 70, 141) !important;
 	text-align: center;
 }
 #instruction{
@@ -74,7 +74,7 @@ button:hover {opacity: 1.5}
 
 .firstbutton{
 	border-radius: 25px;
-	background-color: #000000;
+	background-color: rgb(45, 70, 141) !important;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
@@ -222,7 +222,7 @@ ul{
 footer{
 	text-align: center;
 	padding: auto;
-	background-color: #2E2E2E;
+	background-color: rgb(45, 70, 141) !important;
 	color: white;
 	height:auto;
 	width: 100% !important;
@@ -307,7 +307,7 @@ footer{
 	}
 	footer{
 	  text-align: center;
-	  background-color: #2E2E2E;
+	  background-color: rgb(45, 70, 141) !important;
 	  color: white;
 	  height:auto;
 	  width: 100% !important;	
@@ -321,9 +321,8 @@ footer{
 	footer{
 		margin: 0px!important;
 		padding: 0px !important;
-		background-color: #2E2E2E;
+		background-color: rgb(45, 70, 141) !important;
 		color: white;
 		width: 100% !important;	
-	}
-	  
+	}  
   }
